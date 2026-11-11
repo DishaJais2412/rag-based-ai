@@ -1,0 +1,26 @@
+# Ignore large media folders (These will break GitHub's 100MB limit)
+videos/
+audios/
+whisper/
+newjsons_backup/
+jsons/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables & secrets
+.env
+
+# Debug / Temporary text outputs
+prompt.txt
+response.txt
+output.json
+
+# LaTeX report source (optional, keep if you want to track it)
+# report.tex
+
+# IDEs
+.vscode/
+.idea/
+.rag/
